@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cardápio - Cantina do Sabor</title>
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- CSS Interno -->
+    <style>
+      /* Este estilo se aplica apenas à tabela desta página */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      th,
+      td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      th {
+        background-color: #e76f51;
+        color: white;
+      }
+      tr:hover {
+        background-color: #f1f1f1;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Nosso Cardápio</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="cardapio.html">Cardápio</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Pratos Principais</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Prato</th>
+              <th>Descrição</th>
+              <th>Preço</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Spaghetti alla Carbonara</td>
+              <td>
+                Massa italiana com ovos, queijo pecorino, pancetta e pimenta
+                preta.
+              </td>
+              <td>R$ 45,00</td>
+            </tr>
+            <tr>
+              <td>Lasagna alla Bolognese</td>
+              <td>
+                Camadas de massa fresca, molho bolonhesa, molho bechamel e
+                queijo parmesão.
+              </td>
+              <td>R$ 50,00</td>
+            </tr>
+            <tr>
+              <td>Risotto ai Funghi</td>
+              <td>
+                Arroz arbóreo cremoso com cogumelos frescos e um toque de trufa.
+              </td>
+              <td>R$ 55,00</td>
+            </tr>
+            <tr>
+              <td>Pizza Margherita</td>
+              <td>
+                Molho de tomate, mussarela fresca, manjericão e azeite de oliva.
+              </td>
+              <td>R$ 40,00</td>
+            </tr>
+            <tr>
+              <td>Gnocchi al Pesto</td>
+              <td>
+                Nhoque de batata artesanal com molho pesto de manjericão e
+                nozes.
+              </td>
+              <td>R$ 48,00</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="sugestoes">
+        <h2>Sugestões do Chef</h2>
+        <ol>
+          <li>Filetto di Manzo (Filé Mignon ao molho de vinho tinto)</li>
+          <li>Ravioli di Zucca (Ravióli de abóbora com manteiga e sálvia)</li>
+          <li>Tiramisù (Clássica sobremesa italiana)</li>
+        </ol>
+        <div class="imagens-pratos">
+          <img 
+            src="css/img/filemignonaovinho.jpg"
+            alt="Foto de Filetto di Manzo" 
+            img />
+          
+          <img
+            src="css/img/tiramisu.jpeg"
+            alt="Foto de um Tiramisù"
+            img
+          />
+        </div>
+        <p>
+          Visite nosso <a href="#" target="_blank">Instagram</a> para ver mais
+          delícias!
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
